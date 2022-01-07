@@ -2,7 +2,7 @@
 //Find the lowest change that can be given back, given an array of coins. The lowest for a coins array that is empty would be 1. coins = [1, 1, 2], solution 4.
 
 // My Answer
-
+//O(nlogn) time | O(1) space
 function nonConstructibleChange(coins) {
     // Write your code here.
       let answer = 0;
