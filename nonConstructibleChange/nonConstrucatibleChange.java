@@ -1,3 +1,4 @@
+package nonConstructibleChange;
 //SAME PROMPT, NOW DONE IN JAVA
 
 //MY ANSWER
