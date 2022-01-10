@@ -1,6 +1,8 @@
 //PROMPT
 //return true or false when given a linked list to see if it's values are a palindrome, e.g [0. 1. 0]
 //a list of 1 is true.
+
+
 //MY ANSWER -- will refactor.
 //O(NLOGN) O(N)
 class LinkedList {
