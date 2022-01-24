@@ -1,6 +1,11 @@
 //THE PROMPT - GIVEN AN ARRAY OF INTS, FIND THE LONGEST PEAK. PEAK IS DEFINED BY STRICTLY HAVING LOWER TO THE LEFT AND LOWER TO THE RIGHT I.E [ 0, 1 , 0] THE PEAK IS CONTINUED IN LENGTH UNTIL THE DOWN TRENDS ARE BROKEN.
 
-
+//MY SCRATCH
+// - Left -> Right one time through the array
+// - Assume each int is a possible peak,
+// - Check that it fits the definition of a peak or not
+// - Count how long the peak is and store it if longer than the longestPeak. 
+// - return longestPeak
 
 //MY SOLUTION
 //SPACE 0(1) TIME O(N)
