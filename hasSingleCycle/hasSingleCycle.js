@@ -10,9 +10,9 @@ function hasSingleCycle(array) {
       let idxToMove = 0;
       for(let i = 0; i < numOfIndexes; i++){
           const jump = array[idxToMove];
-          visited[idxToMove] = true;
           idxToMove = (idxToMove + jump) % numOfIndexes
           if(idxToMove < 0) idxToMove = idxToMove + numOfIndexes
+          visited[idxToMove] = true;
       }
       console.log(visited)
       return visited.every(visit => visit !== undefined && visit)
